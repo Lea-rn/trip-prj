@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Monoton&family=Mozilla+Headline:wght@200..700&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo-container {
+    font-family: "Monoton", sans-serif;
+    background-color: #f4a226;
+    font-size: 30px;
+    padding: 3px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #5a3e2b;
+}
+
+.form-container {
+  background-color: #e5771f;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  margin-left: 50px;
+}
+ input , button ,select  {
+  background-color: #ffebb3;
+  color: #5a3e2b;
+  border: transparent;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 0px 5px;
+
+}
+
+input {
+  text-align: center;
+  font-weight: 600;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: #76c7ad;
+  font-weight: 700;
+  cursor: pointer;
+}
+.list {
+  background-color: #5a3e2b;
+  min-height: 600px;
+  color: white;
+ 
+  font-size: 20px;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+footer {
+  background-color: #76c7ad;
+  text-align: center;
+  padding: 7px;
+   color: #5a3e2b;
+}
+
+
+.item button {
+  background-color: #5a3e2b;
+  margin-left: 10px;
+  margin-right: 60px;
+  border: transparent;
+  cursor: pointer;
+}
+
+
