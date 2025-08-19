@@ -50,8 +50,7 @@ button {
   cursor: pointer;
 }
 .list {
-  background-color: #5a3e2b;
-  min-height: 600px;
+
   color: white;
  
   font-size: 20px;
@@ -64,8 +63,9 @@ button {
 footer {
   background-color: #76c7ad;
   text-align: center;
-  padding: 7px;
+  padding: 13px;
    color: #5a3e2b;
+   font-size: 20px;
 }
 
 
@@ -75,6 +75,22 @@ footer {
   margin-right: 60px;
   border: transparent;
   cursor: pointer;
+}
+
+.menu {
+    background-color: #5a3e2b;
+  min-height: 600px;
+  position: relative;
+
+}
+
+.actions {
+
+position: absolute;
+bottom: 10px;
+left: 500px;
+
+
 }
 
 
