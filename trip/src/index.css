@@ -87,10 +87,21 @@ footer {
 .actions {
 
 position: absolute;
-bottom: 10px;
+
+bottom: 40px;
 left: 500px;
 
 
 }
 
 
+.btn-clear {
+  margin-left: 150px;
+  background-color: #ffebb3;
+  transition: 1s;
+  
+}
+
+.btn-clear:hover{
+  transform: scale(1.1,1.1);
+}
